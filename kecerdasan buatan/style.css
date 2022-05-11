@@ -1,0 +1,172 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+header{
+    background: -webkit-linear-gradient(top, #6fd0df, #737be2);
+    width: 100%;
+    height: 65px;
+}
+
+header h2{
+    float:left;
+    padding: 20px 20px;
+    
+}
+
+
+.container a{
+    color: black;
+    float: right;
+    padding: 23px 20px;
+    text-decoration: none;
+    transition: all 0.5s; 
+   
+   
+  
+}
+
+.container a:hover{
+    background-color: rgb(227, 227, 243);
+    opacity: 95%;
+}
+
+
+.header-tittle{
+    text-align: center;
+    padding: 50px ;
+    width: 60%;
+    background-color: rgb(236, 240, 245);
+    margin: 0 15%;
+}
+
+
+
+.header-tittle p{
+    text-align: left;
+}
+
+
+.header-tittle h3{
+    text-align: left;
+    padding-top: 40px;
+  
+}
+
+.header-tittle span{
+    font-weight: bold;
+}
+
+ .i-1 img{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    margin: 50px 0;
+    animation: frans 20s ease 20 alternate;
+}
+
+@keyframes frans {
+    0%{
+        margin: 50px 0;
+    }
+    10%{
+        margin: 10% 0;
+    }
+
+    20%{
+        margin: 20% 0;
+    }
+
+    30%{
+        margin: 30% 0;
+    }
+    40%{
+        margin: 40% 0;
+    }
+    50%{
+        margin: 50% 0;
+    }
+    60%{
+        margin: 60% 0;
+    }
+    70%{
+        margin: 70% 0;
+    }
+    80%{
+        margin: 80% 0;
+    }
+    90%{
+        margin: 90% 0;
+    }
+    100%{
+        margin: 100% 0;
+    }
+}
+
+
+
+.i-2 img{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    margin: 50px 0;
+    animation: frans 20s ease 20 alternate;
+}
+
+li{
+    background-color: #6fd0df;
+    transition: all 0.5s;
+}
+
+li :hover{
+    background-color: aliceblue;
+}
+
+/*About*/
+
+.about-container{
+    margin: 80px 0;
+    width: 100%;
+    height: 350px; 
+    background-color: #c4cdcf7e;
+    
+}
+
+.heading h1{
+    font-size: 20px;
+    
+}
+
+.content-wrapper{
+    text-align: center;
+    padding-top: 20px 0;
+}
+
+.content-lesson{
+    width: 25%;
+    float: left;
+}
+
+.lesson{
+    padding-top:25px ;
+  
+}
+
+.icon img{
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+}
+
+.fa{
+    padding: 5px;
+}
+
+
+.lesson span{
+    color: rgb(66, 66, 66);
+  }
+  
+
